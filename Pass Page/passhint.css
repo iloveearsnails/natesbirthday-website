@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(jellyfish.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.hint-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: rgba(255,255,255,.5);
+    border: 2px solid rgba(255,255,255,.10);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
